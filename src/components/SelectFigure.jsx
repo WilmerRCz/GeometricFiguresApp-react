@@ -1,8 +1,6 @@
 import React from "react";
-import useChangeFigure from "../hooks/useChangeFigure";
 
-function SelectFigure() {
-  const {handleSelectFigure} = useChangeFigure()
+function SelectFigure({handleSelectFigure}) {
   const options = [
     { value: "sphere", label: "Esfera" },
     { value: "cube", label: "Cubo" },

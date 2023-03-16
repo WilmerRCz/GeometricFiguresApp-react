@@ -8,7 +8,7 @@ import useChangeFigure from "./hooks/useChangeFigure";
 
 
 function App() {
-  const {figure} = useChangeFigure()
+  const {figure, handleSelectFigure} = useChangeFigure()
   
   useEffect(() => {
     console.log(figure);
@@ -16,12 +16,12 @@ function App() {
 
   return (
     <div className="h-screen overflow-hidden">
-      <SelectFigure />
+      <SelectFigure handleSelectFigure={handleSelectFigure}/>
       <ThreeScene>
         <color attach={"background"} args={["#0f172a"]} />
         {figure === 'cube' ? <Cube/> : <Sphere/>}
         <ambientLight />
-        <OrbitControls autoRotate autoRotateSpeed={0} />
+        <OrbitControls autoRotate autoRotateSpeed={1} />
         <Stars />
       </ThreeScene>
     </div>
