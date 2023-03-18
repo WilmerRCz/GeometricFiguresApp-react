@@ -23,3 +23,8 @@ Once you have the application running, you can interact with the 3D geometric sh
 
 <h2>Credits 💡</h2>
 This application was created by WilmerRCz
+
+<h2>📷 Screenshots</h2>
+
+
+![imagen geometry](https://res.cloudinary.com/dp7brg2ul/image/upload/v1679178196/GeometricFiguresImages/GeometricFiguresGif_1_gkmnmm.gif)
