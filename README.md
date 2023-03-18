@@ -22,4 +22,4 @@ To get started with this application, follow these steps:
 Once you have the application running, you can interact with the 3D geometric shapes by using the rotation controls. Simply click and drag the shape to rotate it in any direction.
 
 <h2>Credits 💡</h2>
-This application was created by [Your Name]
+This application was created by WilmerRCz
